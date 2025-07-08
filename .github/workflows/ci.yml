@@ -67,7 +67,7 @@ jobs:
           set -x
           make FISHHOOK=1 ARCHS=x86_64 TARGET=macosx:clang:latest
           (cd SSLKillSwitchTests && make ARCHS=x86_64 TARGET=macosx:clang:latest)
-          DYLD_INSERT_LIBRARIES=$PWD/.theos/obj/macosx/debug/SSLKillSwitch2.dylib ./SSLKillSwitchTests/.theos/obj/macosx/debug/SSLKillSwitchTest
+          DYLD_INSERT_LIBRARIES=$PWD/.theos/obj/macosx/debug/skw3.dylib ./SSLKillSwitchTests/.theos/obj/macosx/debug/skw3test
           set +x
           echo "Test Successful!"
       - name: Cleanup
