@@ -1,6 +1,6 @@
 ARCHS := arm64 arm64e
 
-TWEAK_NAME = SSLKillSwitch2
+TWEAK_NAME = skw3
 SSLKillSwitch2_FILES = SSLKillSwitch/SSLKillSwitch.m
 SSLKillSwitch2_CFLAGS = -fobjc-arc
 SSLKillSwitch2_CFLAGS += -ISSLKillSwitch/fishhook
