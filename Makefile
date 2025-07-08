@@ -32,7 +32,7 @@ SSLKillSwitch2_CFLAGS += -DSUBSTRATE_BUILD
 else  # FISHHOOK
 
 $(info Build as a FishHook Tweak)
-SSLKillSwitch2_FILES += SSLKillSwitch/fishhook/fishhook.c
+skw3_FILES += SSLKillSwitch/fishhook/fishhook.c
 # avoid linking Substrate
 SSLKillSwitch2_LOGOS_DEFAULT_GENERATOR = internal
 
